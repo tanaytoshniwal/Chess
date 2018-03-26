@@ -37,6 +37,7 @@ public class AlphaBeta {
 		f.add(ui);
 		f.setSize(522, 535);
 		f.setVisible(true);
+		f.setLocationRelativeTo(null);
 		System.out.println(possibleMoves());
 		
 		playerColor=JOptionPane.showOptionDialog(null, "Do you want to play the first move?", 

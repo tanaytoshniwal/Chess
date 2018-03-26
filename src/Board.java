@@ -16,9 +16,9 @@ public class Board extends JPanel implements MouseListener, MouseMotionListener{
 		this.addMouseListener(this);
         this.addMouseMotionListener(this);
 		for(int i=0;i<64;i+=2){
-			g.setColor(new Color(255,200,100));
+			g.setColor(new Color(255,200,150));
 			g.fillRect((i%8+(i/8)%2)*squareSize, (i/8)*squareSize, squareSize, squareSize);
-			g.setColor(new Color(150,50,30));
+			g.setColor(new Color(150,50,50));
 			g.fillRect(((i+1)%8-((i+1)/8)%2)*squareSize, ((i+1)/8)*squareSize, squareSize, squareSize);
 		}
 		Image chessPiecesImage;
