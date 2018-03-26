@@ -8,8 +8,8 @@ Alpha-Beta Pruning Algorithm is used to select the best possible moves on the bo
 Navigate to ***__src__*** Directory and type the following commands to execute:
 
 ```java
-  javac AlphaBeta.java
-  java AlphaBeta
+  $ javac AlphaBeta.java
+  $ java AlphaBeta
 ```
 
 ## Screenshots
