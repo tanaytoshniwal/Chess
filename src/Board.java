@@ -24,34 +24,6 @@ public class Board extends JPanel implements MouseListener, MouseMotionListener{
 		Image chessPiecesImage;
         chessPiecesImage=new ImageIcon("ChessPieces.png").getImage();
         int x,y,x1=-1,y1=-1;
-        
-      /*  switch (AlphaBetaChess.chessBoard[oldMouseX][oldMouseY]) {
-   	 	case "P": x1=5; y1=0;
-        	 break;
-        case "p": x1=5; y1=1;
-            break;
-        case "R": x1=2; y1=0;
-            break;
-        case "r": x1=2; y1=1;
-            break;
-        case "K": x1=4; y1=0;
-            break;
-        case "k": x1=4; y1=1;
-            break;
-        case "B": x1=3; y1=0;
-            break;
-        case "b": x1=3; y1=1;
-            break;
-        case "Q": x1=1; y1=0;
-            break;
-        case "q": x1=1; y1=1;
-            break;
-        case "A": x1=0; y1=0;
-            break;
-        case "a": x1=0; y1=1;
-            break;
-   	}
-        g.drawImage(chessPiecesImage, (newMouseX-15), (newMouseY-15), (newMouseX+64), (newMouseY+64), x1*64, y1*64, (x1+1)*64, (y1+1)*64, this);*/
         for(int i=0;i<64;i++){
         	x=-1;
         	y=-1;
