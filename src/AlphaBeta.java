@@ -22,8 +22,8 @@ public class AlphaBeta {
 	        {"P","P","P","P","P","P","P","P"},
 	        {"R","K","B","Q","A","B","K","R"}};
 
-	static int kingPositionA, kingPositiona;	//white and black king's position in the array
-	static int globalDepth=4;	//depth of best move searching
+	static int kingPositionA, kingPositiona;
+	static int globalDepth=4;	//depth of best move
 	static int playerColor=-1;	//1=player as white 0=player as black
 	
 	public static void main(String[] args) {
